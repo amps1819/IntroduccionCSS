@@ -134,8 +134,17 @@ ul {
   list-style-type: circle;
 }
 
+#table_title {
+	color:brown;
+	text-decoration:underline;
+}
+
 table {
 	border-collapse: collapse;
+}
+
+table a {
+	color:green;
 }
 
 table, th, td {
@@ -144,4 +153,14 @@ table, th, td {
 
 th {
 	background-color:#9999ff;
+}
+
+/*Estilo para la imagen (con 3 div estamos dentro de la jerarquía de los 3 contenedores div dentro de la columna central de la página)*/
+div div div img {
+	margin-top:10px; /*Espacio de separación entre el elemento anterior que comparte esta imagen en el div y la imagen*/
+
+	max-width:100%; /*Con esto la imagen se intenta ajustar al tamaño máximo del espacio que se le da, en este caso es el espacio del div central entre el elemento anterior a este y el siguiente*/
+	max-height:100%;
+
+	margin-bottom:10px; /*Espacio de separación entre esta imagen y el siguiente elemento que pueda haber a continuación en este div central*/
 }
