@@ -6,6 +6,10 @@ body {
 	font-size:1.5em; /*Tamaño de la fuente*/
 }
 
+div {
+	border-style:solid;
+}
+
 h1 {
 	text-align:center;
 }
@@ -36,6 +40,16 @@ p {
 	margin-top:0.5em;
 }
 
+p.otros {
+	text-decoration:underline;
+	text-align:left;
+}
+
+p.enlaces {
+	text-decoration:underline;
+	text-align:left;
+}
+
 /*Contenedor "div" que tenga el atributo "class=encabezado"*/
 div.encabezado {
 	background-color:#d6d6c2; /*Fondo gris suave*/
@@ -57,4 +71,42 @@ div.encabezado.a {
 /*Para alinear el texto del encabezado que poner "Sección"*/
 p.seccion {
 	text-align:center;
+}
+
+/*Establezco el ancho de las partes izquierda y derecha de la columna central de contenidos*/
+div.izquierdo {
+	width:200px;
+	height:450px;
+	background-color:orange;
+
+float:left;
+}
+
+/*Columna central de contenidos*/
+div.centro {
+	width:330px;
+	height:450px;
+	background-color:yellow;
+
+
+
+	
+float:left;
+}
+
+/*Lateral izquierdo de contenidos*/
+div.derecho {
+	width:200px;
+	height:450px;
+	background-color:orange;
+
+float:left;
+}
+
+/*La sección del pie de página, sólo hay que darle el alto*/
+div.pie_de_pagina {
+	text-align:justify;
+	text-align:center;
+	text-decoration:underline;
+	height:100px;	
 }
