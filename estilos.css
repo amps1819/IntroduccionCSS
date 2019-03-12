@@ -6,9 +6,7 @@ body {
 	font-size:1.5em; /*Tamaño de la fuente*/
 }
 
-div {
-	border-style:solid;
-}
+
 
 h1 {
 	text-align:center;
@@ -55,6 +53,11 @@ div.encabezado {
 	background-color:#d6d6c2; /*Fondo gris suave*/
 	height:100px; /*Altura 100 píxels*/	
 	background-image:url("./cabecera.jpeg"); /*Imagen de fondo de la cabecera*/
+
+	border-style:solid;
+	border-width:1px;
+
+margin-bottom:15px;
 }
 
 /*Para cambiar el color de fondo cuando se pasa el cursor por los enlaces de la cabecear*/
@@ -76,31 +79,39 @@ p.seccion {
 /*Establezco el ancho de las partes izquierda y derecha de la columna central de contenidos*/
 div.izquierdo {
 	width:200px;
-	height:450px;
+	height:600px;
 	background-color:orange;
+	margin-right:15px;
+	float:left;
 
-float:left;
+border-style:solid;
+	border-width:1px;
+margin-right:15px;
 }
 
 /*Columna central de contenidos*/
 div.centro {
 	width:330px;
-	height:450px;
+	height:600px;
 	background-color:yellow;
+	margin-right:15px;	
+	float:left;
 
-
-
-	
-float:left;
+	border-style:solid;
+	border-width:1px;
+margin-right:15px;
 }
 
 /*Lateral izquierdo de contenidos*/
 div.derecho {
 	width:200px;
-	height:450px;
+	height:600px;
 	background-color:orange;
+	float:left;
 
-float:left;
+	border-style:solid;
+	border-width:1px;
+margin-bottom:15px;
 }
 
 /*La sección del pie de página, sólo hay que darle el alto*/
@@ -108,5 +119,15 @@ div.pie_de_pagina {
 	text-align:justify;
 	text-align:center;
 	text-decoration:underline;
-	height:100px;	
+	height:100px;
+
+	border-style:solid;
+	border-width:1px;	
+
+	clear: both; /*Obligatorio, si no  no aparece el borde y el texto como pie de página*/
+
+}
+
+ul {
+  list-style-type: circle;
 }
