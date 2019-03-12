@@ -52,7 +52,7 @@ p.enlaces {
 div.encabezado {
 	background-color:#d6d6c2; /*Fondo gris suave*/
 	height:100px; /*Altura 100 píxels*/	
-	background-image:url("./cabecera.jpeg"); /*Imagen de fondo de la cabecera*/
+	background-image:url("./imgs/cabecera.jpeg"); /*Imagen de fondo de la cabecera*/
 
 	border-style:solid;
 	border-width:1px;
@@ -79,35 +79,33 @@ p.seccion {
 /*Establezco el ancho de las partes izquierda y derecha de la columna central de contenidos*/
 div.izquierdo {
 	width:200px;
-	height:600px;
-	/*background-color:orange;*/
+	height:620px;
 	background-color:#ffff66;
 	margin-right:15px;
 	float:left;
 
 	border-style:solid;
 	border-width:1px;
-	margin-right:15px;
+	margin-right:16px;
 }
 
 /*Columna central de contenidos*/
 div.centro {
 	width:330px;
-	height:600px;
-	/*background-color:yellow;*/
-	margin-right:15px;	
+	height:620px;
+	margin-right:16px;	
 	float:left;
 
 	border-style:solid;
 	border-width:1px;
-	margin-right:15px;
+	
+	margin-bottom:16px;
 }
 
 /*Lateral izquierdo de contenidos*/
 div.derecho {
 	width:200px;
-	height:600px;
-	/*background-color:orange;*/
+	height:620px;
 	float:left;
 
 	border-style:solid;
@@ -164,3 +162,5 @@ div div div img {
 
 	margin-bottom:10px; /*Espacio de separación entre esta imagen y el siguiente elemento que pueda haber a continuación en este div central*/
 }
+
+/*NOTAS: Mejor usar una etiqueta "nav" para la barra/menu de navegación de la parte del encabezado y por otra parte usar una etiqueta "footer" para el pie de pagina*/
