@@ -163,4 +163,30 @@ div div div img {
 	margin-bottom:10px; /*Espacio de separación entre esta imagen y el siguiente elemento que pueda haber a continuación en este div central*/
 }
 
+/*El estilo del footer. Sustituirá al del div que teníamos haciendo de pie de página*/
+footer {
+	text-align:justify;
+	text-align:center;
+	text-decoration:underline;
+	height:100px;
+
+	border-style:solid;
+	border-width:1px;	
+
+	clear: both; /*Obligatorio, si no  no aparece el borde y el texto como pie de página*/
+}
+
+/*Estilo del nav, barra de navegación. Sustituye al div que teníamos haciendo de cabecera*/
+/*Contenedor "div" que tenga el atributo "class=encabezado"*/
+nav {
+	background-color:#d6d6c2; /*Fondo gris suave*/
+	height:100px; /*Altura 100 píxels*/	
+	background-image:url("./imgs/cabecera.jpeg"); /*Imagen de fondo de la cabecera*/
+
+	border-style:solid;
+	border-width:1px;
+
+margin-bottom:15px;
+}
+
 /*NOTAS: Mejor usar una etiqueta "nav" para la barra/menu de navegación de la parte del encabezado y por otra parte usar una etiqueta "footer" para el pie de pagina*/

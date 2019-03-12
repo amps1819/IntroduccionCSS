@@ -10,10 +10,12 @@
 
 	<body> <!-- El cuerpo -->
 
-		<p> <h1>  Club de lectura </h1> </p> <!-- Cabecera de la página -->
+		<!-- <p> <h1>  Club de lectura </h1> </p> <!-- Cabecera de la página -->
+
+		<header> <h1>  Club de lectura </h1> </header> <!-- Nuevo: Uso la etiqueta HTML5 "header" para tener un encabezado de página -->
 
 		<!-- Contenedor "div" para el estilo del encabezado de página -->
-		<div class="encabezado"> 
+		<!-- <div class="encabezado"> 
   
 			<p class="seccion"> <caption>Secciones</caption> </p>
 
@@ -24,7 +26,20 @@
 				<a href="perf.html" id="pagPerf" rel="next" >Perfiles</a>
 			</p>
 		
-		</div>
+		</div> -->
+
+		<nav> 
+  
+			<p class="seccion"> <caption>Secciones</caption> </p>
+
+			<p>
+				<a href="recom.html" id="pagRecom" rel="next" >Recomendaciones</a> |
+				<a href="gen.html" id="pagGen" rel="next" >Generos</a> |
+				<abbr title="Etiquetas"><a href="etiq.html" id="pagEtiq" rel="next" >Tags</a></abbr> |
+				<a href="perf.html" id="pagPerf" rel="next" >Perfiles</a>
+			</p>
+		
+		</nav>
 
 		<div class="contenidos">  <!-- Para el contenedor central-->
 			<div class="izquierdo"> 
@@ -102,7 +117,9 @@
 			</div>
 		</div>
 
-		<div class="pie_de_pagina"> Copyright 2019 </div> <!-- Para el estilo del pié de página -->
+		<!-- <div class="pie_de_pagina"> Copyright 2019 </div> <!-- Para el estilo del pié de página -->
+
+		<footer> Copyright 2019 </footer> <!-- Usamos la nueva etiqueta HTML5 "footer" que sirve de pie de pagina en vez de un "div" -->
 	</body>
 
 <!-- /*NOTAS: Mejor usar una etiqueta "nav" para la barra/menu de navegación de la parte del encabezado y por otra parte usar una etiqueta "footer" para el pie de pagina*/ -->
