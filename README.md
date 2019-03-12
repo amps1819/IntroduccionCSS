@@ -1,8 +1,8 @@
 #			--Usabilidad y Accesibilidad--
 
-##			-Introducción a HTMl-
+##			-Introducción a HTML-
 
 ### Grupo 5
 
-[Pagina HTML](./index.html)
+[Pagina HTML con enlace a sus estilos](./index.html)
       
