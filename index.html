@@ -1,6 +1,7 @@
 <!doctype html> <!-- Define el documento bajo HTML5 -->
 
 	<head> <!-- La cabecera -->
+		<link media="screen" href="./estilos.css" type="text/css" rel="stylesheet"> <!-- Etiqueta para indicar el fichero de hoja de estilos a usar -->
 
 		<title> P&aacutegina principal del Club de Lectura </title> <!-- Nombre de la página en lo alto del navegador  -->
 		
@@ -11,25 +12,23 @@
 
 		<p> <h1>  Club de lectura </h1> </p> <!-- Cabecera de la página -->
 
-		<br>
-		<caption>Secciones</caption>
-		<br>
-		<a href="recom.html" id="pagRecom" rel="next" >Recomendaciones</a>
-		<a href="gen.html" id="pagGen" rel="next" >Generos</a>
-		<abbr title="Etiquetas"><a href="etiq.html" id="pagEtiq" rel="next" >Tags</a></abbr>
-		<a href="perf.html" id="pagPerf" rel="next" >Perfiles</a>
-		<br>		
-		<br>
+		<!-- Contenedor "div" para el estilo del encabezado de página -->
+		<div class="encabezado"> 
+  
+			<p class="seccion"> <caption>Secciones</caption> </p>
+
+			<p>
+				<a href="recom.html" id="pagRecom" rel="next" >Recomendaciones</a>
+				<a href="gen.html" id="pagGen" rel="next" >Generos</a>
+				<abbr title="Etiquetas"><a href="etiq.html" id="pagEtiq" rel="next" >Tags</a></abbr>
+				<a href="perf.html" id="pagPerf" rel="next" >Perfiles</a>
+			</p>
+		
+		</div>
 
 		<img src="imgs/copyright-free-images-book-3.jpg" alt="imagen-libros"> <!-- Una imagen -->
-		<br>
 		<br> <!-- Nueva linea -->
-		<br>
-		<br>
-		<br>
-		<em>Dejar un comentario:</em>
-		<br>
-		<br>
+		<p> Dejar un comentario: </p>
 		<form action="destino.html" target="_blank" method="get" enctype="text/plain">
 			<legend> Formulario1 </>
 			<br>
@@ -46,6 +45,13 @@
 			<input type="reset" alt="Borra el contenido del cuadro de texto">
 			<input type="submit" alt="Envia la consulta">
 		</form>
+
+		<div>  <!-- Para el contenedor central-->
+		<div id="izq"> Izquierda </div>
+		<div> Centro </div>
+		<div> Derecha</div>
+		</div>
+		<div> Pie de pagina </div> <!-- Para el estilo del pié de página -->
 	</body>
 
 </html>

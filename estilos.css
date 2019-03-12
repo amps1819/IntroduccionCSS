@@ -1,0 +1,60 @@
+/*Usamos la etiqueta body de toda la página para establecer los estilos generales que se aplican a toda ella*/
+body {
+	width:770px; /*Anchura fija de la página de 770píxeles*/
+	font-family:Arial; /*Fuente Arial (o su familia)*/
+	color:black; /*Color de la fuente negro*/
+	font-size:1.5em; /*Tamaño de la fuente*/
+}
+
+h1 {
+	text-align:center;
+}
+
+/*El estilo general del los enlaces*/
+a {
+	color:blue; /*Color de enlace, estado normal*/
+}
+
+/*Estilo de enlace al pasar el cursor por encima*/
+a:hover {
+	color:red;
+}
+
+/*Estilo de enlaces ya clicados/visitados*/
+a:visited {
+	font-family:Verdana;
+	color:blue;
+}
+
+/*Si ya hemos clicado en el enlace previamente al pasar por el cursor también sigue poniéndose en rojo*/
+a:visited:hover {
+	color:red;
+}
+
+/*El estilo de los párrafos, margen de separación superior de 0.5em*/
+p {
+	margin-top:0.5em;
+}
+
+/*Contenedor "div" que tenga el atributo "class=encabezado"*/
+div.encabezado {
+	background-color:#d6d6c2; /*Fondo gris suave*/
+	height:100px; /*Altura 100 píxels*/	
+	background-image:url("./cabecera.jpeg"); /*Imagen de fondo de la cabecera*/
+}
+
+/*Para cambiar el color de fondo cuando se pasa el cursor por los enlaces de la cabecear*/
+div.encabezado.a:hover {
+	background-color:#ff66cc;
+}
+
+/*Los elementos del menú/barra de navegación, es decir, los enlaces */
+div.encabezado.a {
+	padding:0.3em; /*Relleno*/
+	margin-bottom:0.7em; /*Margen inferior 0.7em*/
+}
+
+/*Para alinear el texto del encabezado que poner "Sección"*/
+p.seccion {
+	text-align:center;
+}
