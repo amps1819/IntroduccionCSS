@@ -1,6 +1,6 @@
 #			--Usabilidad y Accesibilidad--
 
-##			-Introducción a HTML-
+##			-Introducción a CSS-
 
 ### Grupo 5
 
